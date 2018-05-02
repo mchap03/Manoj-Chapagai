@@ -1,0 +1,43 @@
+ball_size = 5
+ball_weigh = 19
+ball_circu = 26
+ball_shape = "circle"
+ball_color = "any color"
+ball_brand = "any brand"
+country_ball = "any country ball"
+current_volu = 17
+ball_text = "Team name"
+TeamBall_cost = 75
+remove_air = True
+
+
+user_ball_text = input("Do you want the ball text?")
+def ball_text(user_input):
+    if user_input == "True":
+        print("You need more money")
+    elif user_input == "False":
+        print("it wil be the ball cost only")
+        
+ball_text(user_ball_text)
+user_remove_air = input("Do you want to take the air out?")
+def remove_air(ball_air):
+    if ball_air == "True":
+        print("Take some air out")
+    elif ball_air == "False":
+        print("play like that")
+
+remove_air(user_remove_air)
+
+
+
+user_Teamball_cost = input("Does it cost more than hundred?")
+def Teamball_cost(ball_cost):
+    if ball_cost == "True":
+        print("That too expensive")
+    elif ball_cost == "False":
+        print("Alright i will buy it")
+
+Teamball_cost(user_Teamball_cost)
+
+
+        
